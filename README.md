@@ -22,7 +22,7 @@ This project tackles these challenges by developing a robust framework specifica
 
 ## ✨ Key Contributions
 
-*   ** novel Multimodal Dataset**: Creation of the first manually annotated, 2-hour audio-text hate speech dataset for the Telugu language, sourced from real-world YouTube content.
+*   **Novel Multimodal Dataset**: Creation of the first manually annotated, 2-hour audio-text hate speech dataset for the Telugu language, sourced from real-world YouTube content.
 *   **Audio-Centric Analysis**: A deep dive into audio-based hate speech detection using both traditional acoustic features (OpenSMILE, LIBROSA) and modern deep learning representations (Wav2Vec2, AST).
 *   **Comprehensive Benchmarking**: Systematic evaluation and comparison of various models for both audio and text modalities, establishing strong baselines for future research in low-resource languages.
 *   **Open Source**: The dataset and models serve as a foundation for further research in multimodal and low-resource NLP.
@@ -157,30 +157,6 @@ This project serves as a critical first step towards creating safer online space
 2.  **Multimodal Fusion**: The next logical step is to investigate advanced fusion techniques (e.g., joint embeddings, co-attention mechanisms) that combine audio and text features to build a model that is more robust than the sum of its parts.
 3.  **Cross-Lingual Transfer**: Explore transfer learning from high-resource languages to further improve model performance on Telugu.
 
-## ⚙️ How to Use This Project
-
-*(This section can be populated with instructions on setting up the environment, running scripts, etc.)*
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/audio-hate-speech-telugu.git
-    cd audio-hate-speech-telugu
-    ```
-
-2.  **Set up the environment:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Download the dataset:**
-    *(Provide a link or instructions to access the dataset)*
-
-4.  **Run the experiments:**
-    ```bash
-    # Example: Run training for the OpenSMILE + SVM model
-    python train.py --modality audio --model opensmile_svm
-    ```
-
 ## 🙏 Citation
 
 If you use this dataset or code in your research, please cite the original paper:
@@ -192,12 +168,3 @@ If you use this dataset or code in your research, please cite the original paper
   year={2024}
 }
 ```
-
-## 👨‍💻 Contributors
-
-*   Santhosh Kumar M
-*   Sai Ravula P
-*   Prasanna Teja M
-*   Ajay Surya J
-*   Mohitha V
-*   Jyothish Lal G
